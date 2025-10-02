@@ -15,7 +15,7 @@ function App() {
         {/* 4. <Route>는 특정 path와 해당 path에서 렌더링할 element(컴포넌트)를 매핑 */}
         {/* path="/"일 때 <Home /> 컴포넌트 렌더링 */}
         <Route path="/" element={<Home />} />
-
+        
         {/* path="/about"일 때 <About /> 컴포넌트 렌더링 */}
         <Route path="/about" element={<About />} />
       </Routes>
